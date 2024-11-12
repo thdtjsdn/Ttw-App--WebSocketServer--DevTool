@@ -15,7 +15,7 @@
 - 본서버는 Protocol Level에서 정의된 기능외 확장기능이 없기 때문에 보안에 안전합니다.
 
 - Windows, Linux, Mac 지원
-- Linux, Mac은 바이너리 권한 추가 sudo chmod 755 ./Ttw-App--WebSocketServer--DevTool 또는 Mac
+- Linux, Mac은 바이너리 권한 추가 sudo chmod 755 ./TtwAppWebSocketServerDevTool 또는 Mac
 
 - IP 차단 기능
 - UserAgent 차단기능
