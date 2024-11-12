@@ -14,13 +14,19 @@
 - 본서버는 Protocol Level에서 정의된 기능외 확장기능이 없기 때문에 보안에 안전합니다.
 
 - Windows, Linux, Mac 지원
-- Linux, Mac은 바이너리 권한 추가 sudo chmod 755 ./TtwServerStreamLinux 또는 Mac
+- Linux, Mac은 바이너리 권한 추가 sudo chmod 755 ./Ttw-App--WebSocketServer--DevTool 또는 Mac
 
 - IP 차단 기능
 - UserAgent 차단기능
 - Log 시간 단위 저장
 
 - 개인 데이터 그 무엇도 전송 및 보관하지 않습니다(수갑 차기 싫습니다.)
+
+- 서버의 대상 폴더를 지정 후
+	- .main.js 에서 ConfigServerHttps.ABSOLUTE_PATH_APPLICATION_WEB = '.web/';
+	- http://localhost:48500/index.html 등 해당 파일에 접속후 소스를 수정 저장하면 바로 화면이 갱신됩니다.
+	- 또는 작업할 html 파일에 </html><script src="http://thdtjsdn.com:49310/dev_ws"></script> 형태로 삽입해주면 file:///D:/PROJECT/.web/index.html 상황의 화면 페이지도 파일 수정시 자동 갱신합니다.
+
 
 ---
 
