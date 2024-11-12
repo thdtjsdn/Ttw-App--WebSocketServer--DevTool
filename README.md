@@ -5,6 +5,7 @@
 # 문의 사항
 
 - thdtjsdn@gmail.com
+- 'HTTPS' Repository는 [Ttw-App--WebSocketServer--DevTool_S](https://github.com/thdtjsdn/Ttw-App--WebSocketServer--DevTool_S) 입니다.
 
 ---
 
@@ -26,8 +27,6 @@
 	- .main.js 에서 ConfigServerHttps.ABSOLUTE_PATH_APPLICATION_WEB = '.web/';
 	- http://localhost:48500/index.html 등 해당 파일에 접속후 소스를 수정 저장하면 바로 화면이 갱신됩니다.
 	- 또는 작업 html 파일에 `</html><script src="http://thdtjsdn.com:49310/dev_ws"></script>` 코드 삽입시 (file:///D:/PROJECT/.web/index.html) 화면 페이지도 파일 수정시 자동 갱신합니다.
-
-- 'HTTPS' Repository는 [Ttw-App--WebSocketServer--DevTool_S](https://github.com/thdtjsdn/Ttw-App--WebSocketServer--DevTool_S) 입니다.
 
 ---
 
